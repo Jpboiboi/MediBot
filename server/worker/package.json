@@ -1,0 +1,15 @@
+{
+  "name": "my-service",
+  "version": "1.0.0",
+  "main": "service.js",
+  "scripts": {
+    "start": "node reminderWorker.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "@prisma/client": "^5.0.0",
+    "bullmq": "^5.56.4"
+  }
+}
